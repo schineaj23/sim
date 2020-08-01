@@ -11,5 +11,5 @@ USER gitpod
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN sudo apt-get -q update && \
-    sudo apt-get install -y libzbar-dev libopencv-dev libjpeg-dev python-dev doxygen swig
+RUN sudo apt-get update
+RUN sudo apt-get install -y libzbar-dev libopencv-dev libjpeg-dev python-dev doxygen swig
